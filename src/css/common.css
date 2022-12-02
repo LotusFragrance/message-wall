@@ -1,0 +1,23 @@
+/* Color */
+/* 中性色 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  line-height: 1.5;
+  background-color: #FFFFFF;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #202020;
+}
+img {
+  display: block;
+}
