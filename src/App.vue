@@ -3,11 +3,14 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
-<style>
-
+<style lang="less">
+body {
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  line-height: 1.5;
+  background-color: @gray-10;
+}
 </style>

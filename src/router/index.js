@@ -4,7 +4,30 @@ const routes = [
   {
     path: '/',
     name: 'layout',
-    component: () => import('@/views/layout')
+    component: () => import('@/views/layout'),
+    redirect: '/home',
+    children: [
+      {
+        path: '/home',
+        name: 'home',
+        component: () => import('@/views/home')
+      },
+      {
+        path: '/message',
+        name: 'message',
+        component: () => import('@/views/message')
+      },
+      {
+        path: '/football',
+        name: 'football',
+        component: () => import('@/views/football')
+      },
+      {
+        path: '/share',
+        name: 'share',
+        component: () => import('@/views/share')
+      }
+    ]
   }
 ]
 

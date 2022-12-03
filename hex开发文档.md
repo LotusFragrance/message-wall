@@ -69,3 +69,13 @@ vue create message-wall
     * |-- static/             &emsp;// 静态资源目录，不会被打包
 
 ### 全局引入less和字体图标
+
+### 引入ElementUI-plus框架
+
+### 配置路由，完成页面的布局，实现路由跳转
+```
+/home    : 主页
+/message : 留言墙
+/football: 足球往事
+/share   : 个人分享
+```
