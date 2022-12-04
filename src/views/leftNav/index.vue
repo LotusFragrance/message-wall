@@ -39,7 +39,7 @@
 
     <!-- 展开/收缩按钮 -->
     <div class="isOpen">
-      <span class="iconfont icon-zhankai" @click="clickFn"></span>
+      <span class="iconfont icon-shousuo" @click="clickFn"></span>
     </div>
     <!-- 展开/收缩按钮 -->
   </div>

@@ -37,9 +37,9 @@ export default {
   height: 100vh;
   .content {
     flex: 1;
-    padding: 25px 35px;
     height: 100%;
     background-color: @gray-3;
+    overflow: auto;
   }
   .nav-left {
     position: relative;

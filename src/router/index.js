@@ -15,7 +15,20 @@ const routes = [
       {
         path: '/message',
         name: 'message',
-        component: () => import('@/views/message')
+        component: () => import('@/views/message'),
+        redirect: '/message',
+        children: [
+          {
+            path: '/message',
+            name: 'msgwall',
+            component: () => import('@/views/message/messageWall')
+          },
+          {
+            path: '/message/photo',
+            name: 'photo',
+            component: () => import('@/views/message/photoWall')
+          }
+        ]
       },
       {
         path: '/football',

@@ -7,7 +7,7 @@
     <span class="iconfont icon-fenxiang"></span>
   </div>
   <div class="isOpen">
-    <span class="iconfont icon-shousuo" @click="clickFn"></span>
+    <span class="iconfont icon-zhankai" @click="clickFn"></span>
   </div>
 </template>
 
